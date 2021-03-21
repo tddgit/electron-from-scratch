@@ -1,0 +1,16 @@
+{
+    "**/*.{js,jsx,ts,tsx,vue,svelte,html,json,we,}": [
+        "npm test",
+        "npm run prettier",
+        "npm run lint"
+    ],
+    "*.css": ["npm run stylelint"],
+    "*.scss": [
+        "postcss --config path/to/your/config --replace",
+        "npm run stylelint"
+    ],
+    "*.{png,jpeg,jpg,gif,svg}": ["imagemin-lint-staged"],
+    "compilerOptions": {
+        "jsx": "react"
+    }
+}

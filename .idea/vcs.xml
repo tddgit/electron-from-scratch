@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CommitMessageInspectionProfile">
+    <profile version="1.0">
+      <inspection_tool class="GrazieCommit" enabled="true" level="TYPO" enabled_by_default="true" />
+    </profile>
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_GITHUB/complete-intro-to-react-v5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_GITHUB/complete-intro-to-react-v6" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_GITHUB/firesale" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/__GITHUB/electron-react-boilerplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/electron-course-files" vcs="Git" />
+  </component>
+</project>

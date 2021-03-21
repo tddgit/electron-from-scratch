@@ -1,0 +1,9 @@
+docs/**/*.css
+dist/**/*.css
+**/*.js
+**/*.jsx
+**/*.ts
+**/*.jsx
+**/docs/
+**/dist/
+**/custom-template

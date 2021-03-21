@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-css-modules",
+    "stylelint-config-sass-guidelines",
+    "stylelint-selector-bem-pattern",
+    "stylelint-scss"
+  ],
+  "rules": {
+    "selector-max-id": null,
+    "selector-no-qualifying-type": null,
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": null,
+    "color-named": null,
+    "scss/selector-no-redundant-nesting-selector": true,
+    "indentation": 4,
+    "number-leading-zero": null,
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "plugin/selector-bem-pattern": {
+      "componentName": "[A-Z]+",
+      "componentSelectors": {
+        "initial": "^\\.{componentName}(?:-[a-z]+)?$",
+        "combined": "^\\.combined-{componentName}-[a-z]+$"
+      },
+      "utilitySelectors": "^\\.util-[a-z]+$"
+    },
+    "order/properties-order": [
+      "width",
+      "height"
+    ]
+  },
+  "plugins": [
+    "stylelint-order",
+    "stylelint-selector-bem-pattern"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "source": {
+        "include": ["src"],
+        "includePattern": ".+\\.(j|t)s(doc|x)?$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": ["plugins/markdown", "node_modules/jsdoc-babel"],
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true
+    },
+    "babel": {
+        // don't look for config files
+        "babelrc": false,
+        "extensions": ["js", "jsx", "ts", "tsx"],
+        // only use preset-typescript
+        "presets": ["@babel/preset-typescript"]
+        //        "isTSX": true
+    },
+    "opts": {
+        "recurse": true,
+        "destination": "./docs/",
+        "template": "./custom-template",
+        "tutorials": "./tutorials",
+        "readme": "./README.md"
+    }
+}
